@@ -18,6 +18,7 @@ export default class BaseApi {
 
   constructor(url: string) {
     this.url = `${import.meta.env.VITE_API_URL}/${url}`;
+    console.log({ url: this.url, vite_url: import.meta.env.VITE_API_URL });
   }
 
   private request({ method, endpoint, headers, body }: RequestArgs) {
