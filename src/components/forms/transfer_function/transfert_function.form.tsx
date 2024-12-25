@@ -110,6 +110,7 @@ export default function TransferFunctionForm() {
             <MatrixInput type="tf" className="flex-row items-center gap-10" />
           </MatrixInputContextProvider>
           <TransferFunctionLatex
+            showLabel
             num={form.watch("num")}
             den={form.watch("den")}
           />

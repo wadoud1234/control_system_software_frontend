@@ -17,7 +17,7 @@ export default class BaseApi {
   protected url: string;
 
   constructor(url: string) {
-    this.url = `http://localhost:5000/${url}`;
+    this.url = `${import.meta.env.VITE_API_URL}/${url}`;
   }
 
   private request({ method, endpoint, headers, body }: RequestArgs) {

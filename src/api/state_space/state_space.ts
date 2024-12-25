@@ -1,5 +1,4 @@
 import BaseApi from "../base_api";
-import { TF_Input } from "../transfer_function/tf_inputs";
 import { SS_Plot_Input, SS_Input } from "./ss_inputs";
 
 export default class StateSpaceApi extends BaseApi {

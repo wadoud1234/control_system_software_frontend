@@ -1,3 +1,4 @@
+// @ts-ignore
 import { BlockMath } from "react-katex";
 
 const generateLatex = (num: number[], den: number[]) => {
